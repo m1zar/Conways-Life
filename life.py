@@ -10,7 +10,6 @@ world2=world1.copy()
 # Calculate a new generation..
 def Generation(now,new):
     for i in range(width,size-width):
-       # print("0" if now[i]=="1" else " ",end='')
         if i % width==0: print("")
         t=int(now[i-1]) + int(now[i+1]) + int(now[i-width]) + int(now[i+width]) + int(now[i-width+1]) + int(now[i-width-1]) + int(now[i+width-1]) + int(now[i+width+1])
         if now[i]=="0":
