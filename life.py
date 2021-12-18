@@ -25,7 +25,7 @@ for i in range(width,size-width):
         if random.randrange(0,7)==1: world1[i]="1"
 
 # Main Loop
-while 1:
+while True:
     system('cls')
     Generation(world1,world2)
     time.sleep(.1)
