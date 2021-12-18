@@ -2,7 +2,7 @@ import time
 import random 
 from os import system
 width=99
-height=33
+height=30
 size=(width*height)
 world1=list("0"*(size+1))
 world2=world1.copy()
