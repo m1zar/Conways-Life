@@ -21,7 +21,7 @@ def Generation(now,new):
             print("O",end='')
             new[i]="0" if (t<2 or t>3) else "1"
 
-# Setup
+# Initialise random world...
 for i in range(width,size-width):
         if random.randrange(0,7)==1: world1[i]="1"
 
