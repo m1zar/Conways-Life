@@ -8,6 +8,7 @@ size=(width*height)
 world1=list("0"*(size+1))
 world2=world1.copy()
 cls="cls" if platform.system()=="Windows" else "clear"
+
 # Calculate a new generation..
 def Generation(now,new):
     for i in range(width,size-width):
